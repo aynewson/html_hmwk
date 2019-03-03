@@ -1,0 +1,182 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
+    line-height: 60px;
+    background-color: #666666;  
+}
+.footerStripe {
+    background-color: #4aaaa5;
+    height: 8px;
+    width: 100%;
+}
+
+.footerText {
+    color: white;
+}
+
+nav {
+    background-color: white !important;
+    border: none !important;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    background-color: #4aaaa5;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #9d9d9d;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #9d9d9d;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent !important;
+}
+
+@media screen and (max-device-width: 767px) {
+    nav {
+        background-color: #4aaaa5 !important;
+    }
+    .navbar-inverse .navbar-toggle {
+        border-color: white;
+    }
+    .navbar-collapse {
+        background-color: white;
+    }
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+        color: #9d9d9d;
+        background-color: lightgrey;
+    }
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+        color: #9d9d9d;
+        background-color: transparent;
+    }
+    .dataMain, .comparisonMain {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (min-device-width: 768px) {
+    .navbar-brand {
+        margin-left: 30% !important;
+    }
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white !important;
+    font-size: 24pt;
+}
+
+body {
+    background-color: #ededed;
+}
+
+main {
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: white;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+
+/* Landing Page */
+
+.contentBlocks {
+    background-color: white !important;
+}
+
+h1 {
+    color: #4aaaa5 !important;
+}
+
+.landingPageText {
+    font-size: 14pt;
+    line-height: 28pt;
+}
+
+.landingPageImage {
+    padding: .5em;
+    width: 50%;
+}
+
+.navbar-right {
+    margin-right: 3em;
+}
+
+.visualizationLandingGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.visualizationLandingContainer {
+    margin-bottom: 2em;
+}
+
+@media screen and  (max-width: 992px) {
+    .visualizationLandingContainer {
+        margin-bottom: 30px;
+        margin-top: 1em;
+    }
+    main {
+        margin-top: 3em;
+        margin-bottom: 5em;
+    }
+    .visualizationLandingGrid {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 0 3% 10px;
+    }
+    .vis {
+        margin-top: 1em;
+    }
+}
+
+
+/* Comparison */
+.comparison h2 {
+    color: #4aaaa5;
+    text-align: center;
+}
+
+.comparison img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comparisonMain {
+    background-color: white;
+}
+
+/* Visualizations */
+.visualizeBlocks {
+    padding: 2em;
+}
+
+.selectedFigure {
+    border: 2px solid #4aaaa5;
+}
+
+.visSpacing {
+    padding: .2em;
+}
+
+/* Data */
+.dataMain {
+    background-color: white;
+}

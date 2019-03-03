@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap StyleSheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Lattitude</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="">Plots
+                            <span class="caret"></span> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="maxTemp.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="windspeed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li><a href="data.html">Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 container-fluid contentBLocks visualizeBlocks">
+                    <h1>Max Temperature</h1>
+                    <hr>
+                    <img class="img-responsive" alt="Figure 1"
+                        src="C:\Users\aisha\Desktop\USCLOS201811DATA3\11_web\homework\Instructions\Resources\assets\images\Fig1.png">
+                    <p> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg
+                        Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be
+                        warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth
+                        at the time of the year this data was gathered.</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-1 col-md-12 contentBlocks container-fluid visualizeBlocks vis">
+                    <h1>Visualizations</h1>
+                    <hr>
+                    <div class="visualizationLandingGrid visSpacing">
+                        <a href="maxTemp.html"><img class="img-responsive visualizationLanding selectedFigure"
+                                src="C:\Users\aisha\Desktop\USCLOS201811DATA3\11_web\homework\Instructions\Resources\assets\images\Fig1.png"
+                                alt="Figure 1"></a>
+                        <a href="humidity.html"><img class="img-responsive visualizationLanding"
+                                src="C:\Users\aisha\Desktop\USCLOS201811DATA3\11_web\homework\Instructions\Resources\assets\images\Fig2.png"
+                                alt="Figure 2"></a>
+                        <a href="cloudiness.html"><img class="img-responsive visualizationLanding"
+                                src="C:\Users\aisha\Desktop\USCLOS201811DATA3\11_web\homework\Instructions\Resources\assets\images\Fig3.png"
+                                alt="Figure 3"></a>
+                        <a href="windspeed.html"><img class="img-responsive visualizationLanding"
+                                src="C:\Users\aisha\Desktop\USCLOS201811DATA3\11_web\homework\Instructions\Resources\assets\images\Fig4.png"
+                                alt="Figure 4"></a>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container footerStripe">
+            <br />
+        </div>
+        <div class="container text-center">
+            <span class="footerText">&copy; Copyright Coding Bootcamp 2017</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
